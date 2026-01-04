@@ -1,0 +1,7 @@
+# Sprintnet Seed Nodes
+# Format: <node_id>@<host>:<port>
+#
+# Official Sprintnet Seeds (verified 2026-01-04)
+339b1bbca725378e640f932ee0b8cd51cc638c73@seed1.sprintnet.mononodes.xyz:26656
+a81d520a45cda3a8228cda35e16accd360e2f7c5@seed2.sprintnet.mononodes.xyz:26666
+981b8eaca99e0dcf4871f36120b72bece5ea4d7f@seed3.sprintnet.mononodes.xyz:26676

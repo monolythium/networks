@@ -1,0 +1,42 @@
+{
+  "network_name": "Sprintnet",
+  "cosmos_chain_id": "mono-sprint-1",
+  "evm_chain_id": 262146,
+  "evm_chain_id_hex": "0x40002",
+  "genesis_url": "https://raw.githubusercontent.com/monolythium/networks/main/sprintnet/genesis.json",
+  "genesis_sha256": "d28a7eadfb41627fd3940ce24921fed61b813e4cf0724608888fc049ba452299",
+  "seeds": [
+    "ba3a3920d203688b3bfd24f91c20441114d6c9bb@65.21.52.140:26656",
+    "e3c7e8285efbf887c9a1e960103ad5da2751c571@77.42.42.64:26656"
+  ],
+  "bootstrap_peers": [
+    "1640233292d71449a29a34837cfce4d5ce34bb28@95.217.191.120:26766",
+    "ddc833744a9c627e3338ec2cf6589573327e6e91@95.217.191.120:26776",
+    "f9c1888ebf71f154b1d596d12053598f804606f6@95.217.191.120:26786"
+  ],
+  "rpc_endpoints": {
+    "cosmos_rpc": [
+      "https://rpc.sprintnet.monolythium.org"
+    ],
+    "cosmos_rest": [
+      "https://api.sprintnet.monolythium.org"
+    ],
+    "evm_rpc": [
+      "https://evm.sprintnet.monolythium.org"
+    ],
+    "evm_ws": [
+      "wss://evm-ws.sprintnet.monolythium.org"
+    ]
+  },
+  "port_scheme": {
+    "rpc": 26657,
+    "p2p": 26656,
+    "rest": 1317,
+    "grpc": 9090,
+    "evm_rpc": 8545,
+    "evm_ws": 8546
+  },
+  "network_status": "active",
+  "config_version": "1.0.0",
+  "updated_at": "2026-01-06T00:00:00Z"
+}

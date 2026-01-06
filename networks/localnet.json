@@ -1,0 +1,35 @@
+{
+  "network_name": "Localnet",
+  "cosmos_chain_id": "mono-local-1",
+  "evm_chain_id": 262145,
+  "evm_chain_id_hex": "0x40001",
+  "genesis_url": "file://./localnet/genesis.json",
+  "genesis_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "seeds": [],
+  "bootstrap_peers": [],
+  "rpc_endpoints": {
+    "cosmos_rpc": [
+      "http://localhost:26657"
+    ],
+    "cosmos_rest": [
+      "http://localhost:1317"
+    ],
+    "evm_rpc": [
+      "http://localhost:8545"
+    ],
+    "evm_ws": [
+      "ws://localhost:8546"
+    ]
+  },
+  "port_scheme": {
+    "rpc": 26657,
+    "p2p": 26656,
+    "rest": 1317,
+    "grpc": 9090,
+    "evm_rpc": 8545,
+    "evm_ws": 8546
+  },
+  "network_status": "active",
+  "config_version": "1.0.0",
+  "updated_at": "2026-01-06T00:00:00Z"
+}

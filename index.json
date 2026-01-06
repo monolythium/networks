@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-01-06T00:00:00Z",
+  "networks": [
+    {
+      "id": "localnet",
+      "name": "Localnet",
+      "cosmos_chain_id": "mono-local-1",
+      "evm_chain_id": 262145,
+      "status": "active",
+      "config_file": "networks/localnet.json"
+    },
+    {
+      "id": "sprintnet",
+      "name": "Sprintnet",
+      "cosmos_chain_id": "mono-sprint-1",
+      "evm_chain_id": 262146,
+      "status": "active",
+      "config_file": "networks/sprintnet.json"
+    },
+    {
+      "id": "testnet",
+      "name": "Testnet",
+      "cosmos_chain_id": "mono-test-1",
+      "evm_chain_id": 262147,
+      "status": "testing",
+      "config_file": "networks/testnet.json"
+    },
+    {
+      "id": "mainnet",
+      "name": "Mainnet",
+      "cosmos_chain_id": "mono-1",
+      "evm_chain_id": 262148,
+      "status": "testing",
+      "config_file": "networks/mainnet.json"
+    }
+  ],
+  "evm_chain_id_registry": {
+    "262145": "localnet",
+    "262146": "sprintnet",
+    "262147": "testnet",
+    "262148": "mainnet"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Monolythium Network Configuration",
+  "type": "object",
+  "required": ["network_name", "cosmos_chain_id", "evm_chain_id", "genesis_sha256", "seeds", "bootstrap_peers", "network_status", "config_version"],
+  "properties": {
+    "network_name": {
+      "type": "string",
+      "description": "Human-readable network name"
+    },
+    "cosmos_chain_id": {
+      "type": "string",
+      "description": "Cosmos SDK chain identifier"
+    },
+    "evm_chain_id": {
+      "type": "integer",
+      "description": "EIP-155 chain ID for EVM compatibility"
+    },
+    "evm_chain_id_hex": {
+      "type": "string",
+      "pattern": "^0x[0-9a-fA-F]+$",
+      "description": "Hexadecimal representation of EVM chain ID"
+    },
+    "genesis_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL for genesis.json file"
+    },
+    "genesis_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hash of genesis.json for verification"
+    },
+    "seeds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of seed nodes in node_id@host:port format"
+    },
+    "bootstrap_peers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of persistent peers for bootstrap"
+    },
+    "rpc_endpoints": {
+      "type": "object",
+      "description": "Public RPC endpoints for network access",
+      "properties": {
+        "cosmos_rpc": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "cosmos_rest": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "evm_rpc": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "evm_ws": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "port_scheme": {
+      "type": "object",
+      "description": "Default port configuration scheme",
+      "properties": {
+        "rpc": {
+          "type": "integer"
+        },
+        "p2p": {
+          "type": "integer"
+        },
+        "rest": {
+          "type": "integer"
+        },
+        "grpc": {
+          "type": "integer"
+        },
+        "evm_rpc": {
+          "type": "integer"
+        },
+        "evm_ws": {
+          "type": "integer"
+        }
+      }
+    },
+    "network_status": {
+      "enum": ["active", "deprecated", "testing"],
+      "description": "Current operational status of the network"
+    },
+    "config_version": {
+      "type": "string",
+      "description": "Version of this configuration schema"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of last configuration update"
+    }
+  }
+}

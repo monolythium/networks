@@ -1,0 +1,144 @@
+name: Validate Network Configurations
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install JSON Schema validator
+        run: npm install -g ajv-cli
+
+      - name: Validate network configs against schema
+        run: |
+          echo "Validating network configuration files..."
+          for config in networks/*.json; do
+            echo "Validating $config"
+            ajv validate -s schema/network.schema.json -d "$config" --strict=false
+          done
+
+      - name: Validate index.json structure
+        run: |
+          echo "Validating index.json..."
+          if ! jq empty index.json 2>/dev/null; then
+            echo "Error: index.json is not valid JSON"
+            exit 1
+          fi
+          echo "index.json is valid JSON"
+
+      - name: Check EVM chain ID uniqueness
+        run: |
+          echo "Checking EVM chain ID uniqueness..."
+
+          # Extract all EVM chain IDs
+          chain_ids=$(jq -r '.evm_chain_id' networks/*.json | sort)
+
+          # Check for duplicates
+          duplicates=$(echo "$chain_ids" | uniq -d)
+
+          if [ -n "$duplicates" ]; then
+            echo "Error: Duplicate EVM chain IDs found:"
+            echo "$duplicates"
+            exit 1
+          fi
+
+          echo "All EVM chain IDs are unique"
+
+      - name: Verify Sprintnet EVM chain ID invariant
+        run: |
+          echo "Verifying Sprintnet EVM chain ID..."
+
+          sprintnet_chain_id=$(jq -r '.evm_chain_id' networks/sprintnet.json)
+
+          if [ "$sprintnet_chain_id" != "262146" ]; then
+            echo "Error: Sprintnet EVM chain ID must be 262146, found: $sprintnet_chain_id"
+            exit 1
+          fi
+
+          echo "Sprintnet EVM chain ID is correct: 262146"
+
+      - name: Verify EVM chain ID hex values
+        run: |
+          echo "Verifying EVM chain ID hex representations..."
+
+          for config in networks/*.json; do
+            network=$(basename "$config" .json)
+            decimal=$(jq -r '.evm_chain_id' "$config")
+            hex=$(jq -r '.evm_chain_id_hex' "$config")
+            expected_hex=$(printf "0x%x" "$decimal")
+
+            if [ "$hex" != "$expected_hex" ]; then
+              echo "Error in $network: hex value $hex doesn't match decimal $decimal (expected $expected_hex)"
+              exit 1
+            fi
+
+            echo "$network: EVM chain ID $decimal matches hex $hex"
+          done
+
+      - name: Verify index.json consistency
+        run: |
+          echo "Verifying index.json consistency with network configs..."
+
+          for config in networks/*.json; do
+            network=$(basename "$config" .json)
+
+            # Get values from network config
+            config_chain_id=$(jq -r '.evm_chain_id' "$config")
+            config_cosmos_id=$(jq -r '.cosmos_chain_id' "$config")
+            config_status=$(jq -r '.network_status' "$config")
+
+            # Get values from index.json
+            index_chain_id=$(jq -r --arg net "$network" '.networks[] | select(.id == $net) | .evm_chain_id' index.json)
+            index_cosmos_id=$(jq -r --arg net "$network" '.networks[] | select(.id == $net) | .cosmos_chain_id' index.json)
+            index_status=$(jq -r --arg net "$network" '.networks[] | select(.id == $net) | .status' index.json)
+
+            # Verify consistency
+            if [ "$config_chain_id" != "$index_chain_id" ]; then
+              echo "Error: EVM chain ID mismatch for $network"
+              echo "  Config: $config_chain_id"
+              echo "  Index: $index_chain_id"
+              exit 1
+            fi
+
+            if [ "$config_cosmos_id" != "$index_cosmos_id" ]; then
+              echo "Error: Cosmos chain ID mismatch for $network"
+              echo "  Config: $config_cosmos_id"
+              echo "  Index: $index_cosmos_id"
+              exit 1
+            fi
+
+            if [ "$config_status" != "$index_status" ]; then
+              echo "Error: Status mismatch for $network"
+              echo "  Config: $config_status"
+              echo "  Index: $index_status"
+              exit 1
+            fi
+
+            echo "$network: config matches index"
+          done
+
+          echo "All network configs are consistent with index.json"
+
+      - name: Validation summary
+        run: |
+          echo ""
+          echo "=== Validation Summary ==="
+          echo "All validations passed successfully:"
+          echo "  - JSON schema validation"
+          echo "  - EVM chain ID uniqueness"
+          echo "  - Sprintnet EVM chain ID invariant (262146)"
+          echo "  - Hex/decimal consistency"
+          echo "  - Index consistency"

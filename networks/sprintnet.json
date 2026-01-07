@@ -10,22 +10,22 @@
     "e3c7e8285efbf887c9a1e960103ad5da2751c571@77.42.42.64:26656"
   ],
   "bootstrap_peers": [
-    "1640233292d71449a29a34837cfce4d5ce34bb28@95.217.191.120:26766",
-    "ddc833744a9c627e3338ec2cf6589573327e6e91@95.217.191.120:26776",
-    "f9c1888ebf71f154b1d596d12053598f804606f6@95.217.191.120:26786"
+    "bbf6e09f98eeb522e8d5820b06a962b321509012@37.27.38.21:26656",
+    "dbc351a04314b27280b01c0bb441ad5871a16f0c@95.217.235.75:26656",
+    "f6bdee20b1189f61c7d38c8ff468117db8f91ef3@65.109.139.185:26656"
   ],
   "rpc_endpoints": {
     "cosmos_rpc": [
-      "https://rpc.sprintnet.monolythium.org"
+      "https://rpc.sprintnet.mononodes.xyz"
     ],
     "cosmos_rest": [
-      "https://api.sprintnet.monolythium.org"
+      "https://api.sprintnet.mononodes.xyz"
     ],
     "evm_rpc": [
-      "https://evm.sprintnet.monolythium.org"
+      "https://evm.sprintnet.mononodes.xyz"
     ],
     "evm_ws": [
-      "wss://evm-ws.sprintnet.monolythium.org"
+      "wss://evm-ws.sprintnet.mononodes.xyz"
     ]
   },
   "port_scheme": {
@@ -38,5 +38,5 @@
   },
   "network_status": "active",
   "config_version": "1.0.0",
-  "updated_at": "2026-01-06T00:00:00Z"
+  "updated_at": "2026-01-07T04:10:00Z"
 }

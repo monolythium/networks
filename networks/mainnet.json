@@ -2,7 +2,7 @@
   "network_name": "Mainnet",
   "cosmos_chain_id": "mono_6941-1",
   "evm_chain_id": 6941,
-  "evm_chain_id_hex": "0x1B1D",
+  "evm_chain_id_hex": "0x1b1d",
   "genesis_url": "https://raw.githubusercontent.com/monolythium/networks/main/mainnet/genesis.json",
   "genesis_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
   "seeds": [],

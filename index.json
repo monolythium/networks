@@ -29,7 +29,7 @@
     {
       "id": "mainnet",
       "name": "Mainnet",
-      "cosmos_chain_id": "mono-1",
+      "cosmos_chain_id": "mono_6941-1",
       "evm_chain_id": 6941,
       "status": "testing",
       "config_file": "networks/mainnet.json"

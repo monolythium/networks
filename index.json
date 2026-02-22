@@ -21,8 +21,8 @@
     {
       "id": "testnet",
       "name": "Testnet",
-      "cosmos_chain_id": "mono-test-1",
-      "evm_chain_id": 262147,
+      "cosmos_chain_id": "mono_6940-1",
+      "evm_chain_id": 6940,
       "status": "testing",
       "config_file": "networks/testnet.json"
     },
@@ -30,7 +30,7 @@
       "id": "mainnet",
       "name": "Mainnet",
       "cosmos_chain_id": "mono-1",
-      "evm_chain_id": 262148,
+      "evm_chain_id": 6941,
       "status": "testing",
       "config_file": "networks/mainnet.json"
     }
@@ -38,7 +38,7 @@
   "evm_chain_id_registry": {
     "262145": "localnet",
     "262146": "sprintnet",
-    "262147": "testnet",
-    "262148": "mainnet"
+    "6940": "testnet",
+    "6941": "mainnet"
   }
 }

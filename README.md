@@ -11,8 +11,8 @@ networks/
 ├── networks/
 │   ├── localnet.json             # Local development network
 │   ├── sprintnet.json            # Active testnet (EVM chain ID: 262146)
-│   ├── testnet.json              # Future testnet (EVM chain ID: 262147)
-│   └── mainnet.json              # Future mainnet (EVM chain ID: 262148)
+│   ├── testnet.json              # Public testnet (EVM chain ID: 6940)
+│   └── mainnet.json              # Production mainnet (EVM chain ID: 6941)
 ├── index.json                    # Registry index with EVM chain ID map
 └── .github/workflows/
     └── validate.yml              # CI validation workflow
@@ -33,16 +33,16 @@ networks/
 - **Purpose**: Public testnet for protocol validation
 
 ### Testnet
-- **Cosmos Chain ID**: `mono-test-1`
-- **EVM Chain ID**: `262147` (`0x40003`)
+- **Cosmos Chain ID**: `mono_6940-1`
+- **EVM Chain ID**: `6940` (`0x1B1C`)
 - **Status**: Testing
-- **Purpose**: Reserved for future testnet
+- **Purpose**: Public testnet
 
 ### Mainnet
-- **Cosmos Chain ID**: `mono-1`
-- **EVM Chain ID**: `262148` (`0x40004`)
+- **Cosmos Chain ID**: `mono_6941-1`
+- **EVM Chain ID**: `6941` (`0x1B1D`)
 - **Status**: Testing
-- **Purpose**: Reserved for mainnet launch
+- **Purpose**: Production mainnet
 
 ## EVM Chain ID Allocation
 
@@ -50,8 +50,8 @@ networks/
 |---------|----------|-----|--------|
 | Localnet | 262145 | 0x40001 | Active |
 | Sprintnet | 262146 | 0x40002 | Active |
-| Testnet | 262147 | 0x40003 | Testing |
-| Mainnet | 262148 | 0x40004 | Testing |
+| Testnet | 6940 | 0x1B1C | Testing |
+| Mainnet | 6941 | 0x1B1D | Testing |
 
 **CRITICAL INVARIANT**: Sprintnet must always use EVM chain ID `262146`. This is enforced by CI validation.
 

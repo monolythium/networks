@@ -1,3 +1,5 @@
+![Monolythium Networks](https://raw.githubusercontent.com/mono-labs-org/.github/prod/media/github-banners/monolythium/networks.png)
+
 # Monolythium Networks Registry
 
 Canonical source of truth for all Monolythium network configurations.

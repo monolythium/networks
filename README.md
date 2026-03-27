@@ -12,7 +12,6 @@ networks/
 │   └── network.schema.json       # JSON Schema v7 for network configs
 ├── networks/
 │   ├── localnet.json             # Local development network
-│   ├── sprintnet.json            # Active testnet (EVM chain ID: 262146)
 │   ├── testnet.json              # Public testnet (EVM chain ID: 6940)
 │   └── mainnet.json              # Production mainnet (EVM chain ID: 6941)
 ├── index.json                    # Registry index with EVM chain ID map
@@ -27,12 +26,6 @@ networks/
 - **EVM Chain ID**: `262145` (`0x40001`)
 - **Status**: Active
 - **Purpose**: Local development and testing
-
-### Sprintnet
-- **Cosmos Chain ID**: `mono-sprint-1`
-- **EVM Chain ID**: `262146` (`0x40002`)
-- **Status**: Active
-- **Purpose**: Public testnet for protocol validation
 
 ### Testnet
 - **Cosmos Chain ID**: `mono_6940-1`
@@ -51,11 +44,8 @@ networks/
 | Network | Chain ID | Hex | Status |
 |---------|----------|-----|--------|
 | Localnet | 262145 | 0x40001 | Active |
-| Sprintnet | 262146 | 0x40002 | Active |
 | Testnet | 6940 | 0x1B1C | Testing |
 | Mainnet | 6941 | 0x1B1D | Testing |
-
-**CRITICAL INVARIANT**: Sprintnet must always use EVM chain ID `262146`. This is enforced by CI validation.
 
 ## Validation
 
@@ -63,9 +53,8 @@ The CI workflow validates:
 
 1. **JSON Schema Compliance**: All network configs must conform to `schema/network.schema.json`
 2. **EVM Chain ID Uniqueness**: No duplicate EVM chain IDs allowed
-3. **Sprintnet Invariant**: Sprintnet EVM chain ID must be exactly `262146`
-4. **Hex/Decimal Consistency**: Hex representations must match decimal values
-5. **Index Consistency**: `index.json` must match individual network configs
+3. **Hex/Decimal Consistency**: Hex representations must match decimal values
+4. **Index Consistency**: `index.json` must match individual network configs
 
 ## Usage
 
@@ -90,7 +79,7 @@ The CI workflow validates:
 npm install -g ajv-cli
 
 # Validate a specific network
-ajv validate -s schema/network.schema.json -d networks/sprintnet.json
+ajv validate -s schema/network.schema.json -d networks/testnet.json
 
 # Validate all networks
 for config in networks/*.json; do

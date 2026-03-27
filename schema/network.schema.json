@@ -45,6 +45,11 @@
       },
       "description": "List of persistent peers for bootstrap"
     },
+    "snapshot_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for the latest chain snapshot archive"
+    },
     "rpc_endpoints": {
       "type": "object",
       "description": "Public RPC endpoints for network access",

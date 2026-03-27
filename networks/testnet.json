@@ -7,11 +7,12 @@
   "genesis_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
   "seeds": [],
   "bootstrap_peers": [],
+  "snapshot_url": "https://snapshots.testnet.mononodes.xyz/latest.tar.lz4",
   "rpc_endpoints": {
-    "cosmos_rpc": [],
-    "cosmos_rest": [],
-    "evm_rpc": [],
-    "evm_ws": []
+    "cosmos_rpc": ["https://rpc.testnet.mononodes.xyz"],
+    "cosmos_rest": ["https://api.testnet.mononodes.xyz"],
+    "evm_rpc": ["https://evm.testnet.mononodes.xyz"],
+    "evm_ws": ["wss://evm.testnet.mononodes.xyz"]
   },
   "port_scheme": {
     "rpc": 26657,
@@ -21,7 +22,7 @@
     "evm_rpc": 8545,
     "evm_ws": 8546
   },
-  "network_status": "testing",
+  "network_status": "active",
   "config_version": "1.0.0",
-  "updated_at": "2026-01-06T00:00:00Z"
+  "updated_at": "2026-03-26T00:00:00Z"
 }

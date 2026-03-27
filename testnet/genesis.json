@@ -1,0 +1,2988 @@
+{
+  "app_name": "mono",
+  "app_version": "0.1.0-rc1",
+  "genesis_time": "2026-03-27T18:28:03.057507415Z",
+  "chain_id": "mono_6940-1",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono12wdcy9s0maerdm3473gqjqspkvp5wemxtg99q6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1hjplnd22qka5k727ez0tup0pj6sjpyhr2aqf22",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14j5dxgdx90zww5nnunyd28axcaeufdtp7j93p2",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1x56r44s847v2ct8q8dkg3zpehh77ru0l45rffe",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono136he96m203ytjkvc7lqa772q9u7v30azf59lm7",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono10jp359wz35gzsw6zt776vsrpqafs7l8h74v2yy",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1t079x8y9p4qzxucgk2j2werp9suky4qa48qtr8",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono13r2hmgtl3rl8vyp8k2mutux8zhhhu9j9vhl9sw",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1v9ysv00h8gx5qewfpqaruucj2mk3phy4lrl975",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qyyaq0u7j8engsn5usfv54uqfl0e7rh87p8q78",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1r7dq2y5hq95nnu96z9kg63h3pvggjy2r3xre5w",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1wpmnj9pg02xe9aej994l4zrxy9a0zwldf4trdp",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1xekczdwhgy7qj4jqgnf5tgj9wuwfhtzmn0nfwy",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1d8sn8h9ygvy76n3vaww22acy4ks4ywktwwc0ng",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1yv8hn9zwx7zv45eujj8zajlr4wup2l2cyc2shf",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1jxh7awwzmqwwnj0lqrh9g3mwv7uj6jpxe5e9rt",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1wlmdjfsamrj9cr592k4gd2ckfrdfh9wrcty58y",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono15uxafu5lrckcrxq3xky9kna6drzu3q2ydtw3p8",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono12cv4px4r2u5n7nve8kvpna7nvewplvuu7r9njy",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1uhu3gyw2vgph60mq8m4ffepvmwkeqz28g8ddzu",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lnwvhvgdlhrpgz789fcn0l6uzrrnkwzqh72g2m",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qe45dszfpjt9x7rr38cv9r0ngfr6h77j895gas",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qa2eumnfsg702pl00s7yaxqxsdpzl5ghr4a0jf",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1p099ver2v8kx7zsee4zuatgan95p2jzx8amawf",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1mwjnm3h6qh49l27dp3de9cmutekdcc30pg0zv6",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qmk3lmtj24n5mr48utp55mv65rzwn58r3vv0cu",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono17as9p0arpl3pg05hwgjs7uu48kckpxx9gqm2gj",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1kgkwcqe9eg0dura87fqnygh7lyygnme26d9ut5",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono17lgg9g4mgvmedq3smmhtd23yal2z4jdzeamh3h",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1ga80rqwryma3np0pzldkwzfvnjtjqy3u474gyz",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1f4mqn99s0naagvxw34740r8nzqffvzs606sscj",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1kl07d8l0xzuwklsclrrrx28clm7966dllxz3dx",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1k4wzp2vg8v5xvjrdx3wh2nnn9yx0g3xw32qtrk",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1a03tfkfqcf5rxa7p3eva2pku6jp7zn6540wjh4",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono18e53fgaxevw32vkqg6hlnyrg6fmwwcf57yjz4u",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1kau9qk9nf7vaw5hgaf3llgfntyp365a8sh6uws",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono10sqlees9pmrg5h5962fs58rn8lr7yhx6stxhrw",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono189vasg8s5juf6xl0f05a9x27uv8hetftuugzjf",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1k6ym43kp6n9sx96vssc87fyxteudjm92rsv737",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lzqdnwd9lgvu69qx2s9m0de502ptcxqvvvhxj6",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1jtxd93d04v8enm2cj0tz4aadrdk6y5q0jxumhl",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qsdkq5uvvtphvj3vqg24s9t3c70h4zgad49gyx",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1sujmnaqqjeknw4t0qhgl37x2788zg07j7md68r",
+          "pub_key": null,
+          "account_number": "42",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14rhnq7r6vlwm6g27t4p8phdrjff5wl5m429c9h",
+          "pub_key": null,
+          "account_number": "43",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono15r7xg5uvlupls5k3xqzcu7r4kuf4m67paeeuns",
+          "pub_key": null,
+          "account_number": "44",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1kuun8haavgwxj7zc497ymlryyfq6q9xgzpywdg",
+          "pub_key": null,
+          "account_number": "45",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono16mxvf9le5hkaz6lu3j59xq4t4j5vlkdrq47fpc",
+          "pub_key": null,
+          "account_number": "46",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1n8d4fpagfnt6eu9djtzaazr7v0ydkf7ezz68tw",
+          "pub_key": null,
+          "account_number": "47",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1zd3kd49we8jglzjmalataun4adpy2z4rdeh0fl",
+          "pub_key": null,
+          "account_number": "48",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1l5gggqn74q3mat273wzu7jjgpwprac800f0xxv",
+          "pub_key": null,
+          "account_number": "49",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1exrclcgx29aez28mksw2frrhxy25us63srwcp0",
+          "pub_key": null,
+          "account_number": "50",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono15scwts7zhjme5t58pwz65jtuk6clcux2j2aalc",
+          "pub_key": null,
+          "account_number": "51",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1chmty7c65kdhy5ys4tymku4ea5a5nczeunljfn",
+          "pub_key": null,
+          "account_number": "52",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lrrygx82jnc739jgc3s00dvenpve890h5a349l",
+          "pub_key": null,
+          "account_number": "53",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lxzeqa73xhy7z0epe92fat6c49tm6z2e29p7yx",
+          "pub_key": null,
+          "account_number": "54",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qjrlw0kfg4km7s2q6t3e7pfz4mqjsl2qqvfxup",
+          "pub_key": null,
+          "account_number": "55",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1mug58v3yww8jq7awtwwxrd75mlkg4y2eeykwp5",
+          "pub_key": null,
+          "account_number": "56",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1jt26h2a7zk8hprcdv69njl6kn37ttaz5j36urk",
+          "pub_key": null,
+          "account_number": "57",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1663p24554u0wzc5f9kljllhref3538axw5rk8q",
+          "pub_key": null,
+          "account_number": "58",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1dkz3fqxy0sq5us93ku45q8ps56mj06vdmmxuf5",
+          "pub_key": null,
+          "account_number": "59",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14qh8njcuklenq4ck0q7dcwhw07wu6s4paumzx7",
+          "pub_key": null,
+          "account_number": "60",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono10lt58fq6xhf7ra6sycwaaknj3wlrl9yktdzs8c",
+          "pub_key": null,
+          "account_number": "61",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1zf9efsgfh0yfxz6nhr2837q8e26732rkvswapu",
+          "pub_key": null,
+          "account_number": "62",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1dqtgx6m0v5xat60y7swt2xk7deyv9rh8v2jy20",
+          "pub_key": null,
+          "account_number": "63",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1nk750kxa5mvjkuwfxf3w85yfw9xw20hrajh7cj",
+          "pub_key": null,
+          "account_number": "64",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14sar0e5zs9fj9pv7zzk6tgvsz2l2frklagvs5m",
+          "pub_key": null,
+          "account_number": "65",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono106d0sh6tugq8t8tv4u52ngs4vj2ktsmjqrchw7",
+          "pub_key": null,
+          "account_number": "66",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono19ldkswxs5v2870uzfkkl7yztf0w8l2yy9kqjq3",
+          "pub_key": null,
+          "account_number": "67",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1rdh0rm7233qz2hgm9cd6pn0e68ew2848nlj0n3",
+          "pub_key": null,
+          "account_number": "68",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1ayskdsv279vywpc08f794udmjzdd20t0ufclk9",
+          "pub_key": null,
+          "account_number": "69",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1cdnw7jww2qns7jlf0tpkr0fq4nj0x5ttvhxw32",
+          "pub_key": null,
+          "account_number": "70",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1mn06fl9vzqu4cpl3rlnmsgwqvpp3ad4q3yzp6r",
+          "pub_key": null,
+          "account_number": "71",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono18u2p6fe94pf4uklzl9tyr2ylsvg973z392ce3k",
+          "pub_key": null,
+          "account_number": "72",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1xz3dwyllrzxepur6rwedre0suhz07ffqjkxegm",
+          "pub_key": null,
+          "account_number": "73",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1edm0gs7ek2v3vtqdpdqnkudszfhrczlzw746rd",
+          "pub_key": null,
+          "account_number": "74",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1su0nernxjtg7ty7ete3xsezmt7jyney73f3sz6",
+          "pub_key": null,
+          "account_number": "75",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1z33072vzjxmwkpgkgre33rag6nnq3r9whflvat",
+          "pub_key": null,
+          "account_number": "76",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1tg4yyvpf4akcahdhl4rkmrzahq90yumu2rycxa",
+          "pub_key": null,
+          "account_number": "77",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1hslkj654n4u6djsn5wdzqkk240lcm7r5wz3wqc",
+          "pub_key": null,
+          "account_number": "78",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono13vlg33nas0mqmnc99vanxc6rkp000taqr673sw",
+          "pub_key": null,
+          "account_number": "79",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono128dtxcwrmhyjmt8ww3v5cgn9x3wg5xchs4ws6g",
+          "pub_key": null,
+          "account_number": "80",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1ux7ng7pdnpwxyf9av8vkzv4mjl4kryscjmh2sv",
+          "pub_key": null,
+          "account_number": "81",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1jptd449smjhdfczlk9j4yqm6p65t74hfsx9amv",
+          "pub_key": null,
+          "account_number": "82",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1se8yhyr59degez9h37rklelf2s2wanzy07r4rr",
+          "pub_key": null,
+          "account_number": "83",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14dus090g04mj9uln668kz2q5jsjmnkqse4x88w",
+          "pub_key": null,
+          "account_number": "84",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono187rqglcexpp0gc5d76237aukqsy5vjyjc2puxd",
+          "pub_key": null,
+          "account_number": "85",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1t09s0cq85kwrfzy9tunp7sesxld4ygkglqrm5f",
+          "pub_key": null,
+          "account_number": "86",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono12uqtanpmtdhwn008xcerggacrw2yxhud2wkr8f",
+          "pub_key": null,
+          "account_number": "87",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono16wk7eesqjc46wudycn987q0krfv08uvulhpfcw",
+          "pub_key": null,
+          "account_number": "88",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono12swn5enu86enlz97a8ayz58k7wvqy4mrjj6u36",
+          "pub_key": null,
+          "account_number": "89",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono12wskfhgjxxqdlwavza6cyeju3vjxmlhs3wsvdp",
+          "pub_key": null,
+          "account_number": "90",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1pk6t0xdm3m6w8zx4na0rzeps4a6jpvpqpt32wv",
+          "pub_key": null,
+          "account_number": "91",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1a059avltl75nvrum6aapg9mkgc5u5pwk05flwe",
+          "pub_key": null,
+          "account_number": "92",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1thapwtuqz5plps4rcdy5gv7kqhtec2y38r7a4m",
+          "pub_key": null,
+          "account_number": "93",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lrr7f6vlt4tjp27xgn5nxp7zcxk4g6wervxac6",
+          "pub_key": null,
+          "account_number": "94",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1dtg6fjgau9wkwlqna2a8cp0cntkx7n9qrp05y7",
+          "pub_key": null,
+          "account_number": "95",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono10n7vcdpk2anu4ek57dlzrm0wz3t4gn0e9wynlj",
+          "pub_key": null,
+          "account_number": "96",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1ww4wsl2ashzhzsdxpwhj32kcvxaf4mr6j7s9lc",
+          "pub_key": null,
+          "account_number": "97",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1fy0y5468yxvsqusr2v725r7m35qqzmhgcvftru",
+          "pub_key": null,
+          "account_number": "98",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono15enfja4r5a76d592txtszg3zwqdg4v2euqkvw5",
+          "pub_key": null,
+          "account_number": "99",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qvprya35ghejanrvmapsdsc3z478udxkrl67gd",
+          "pub_key": null,
+          "account_number": "100",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono13fz038q3wpxcrsptgwyctns8dj9ped5ua5al4w",
+          "pub_key": null,
+          "account_number": "101",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1vxuhmlre6gtmfepzywtzye928lrt0m5lskthgt",
+          "pub_key": null,
+          "account_number": "102",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1yhnnkk7rhmype9pu9rrtgdpx5yat4j8kz9xtkl",
+          "pub_key": null,
+          "account_number": "103",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1vlthdnsmrvpn2j5fus08p0v0q9n98ezc0pnq83",
+          "pub_key": null,
+          "account_number": "104",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1chncej5x7sepne95dtkh59mp6s8nw4m9sfey6a",
+          "pub_key": null,
+          "account_number": "105",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1urppm9u6gk6a5awtl8e99txag5vh2u8g9zzdxc",
+          "pub_key": null,
+          "account_number": "106",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1u2j6c5wrzturutvku708f959kc8h2f5anxdsl3",
+          "pub_key": null,
+          "account_number": "107",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1zrvgxnjrc357fp4haxqzu64ghesjmyv0h77gsm",
+          "pub_key": null,
+          "account_number": "108",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1eswkqwd7gqt3clek2xjxealc5zwluqsktpuuqq",
+          "pub_key": null,
+          "account_number": "109",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1me9757nnkh4ggn4plntplwp33gemhfe8jayc6r",
+          "pub_key": null,
+          "account_number": "110",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1leggx30ytcz6w8grxqech09py43qxm2gs58w5m",
+          "pub_key": null,
+          "account_number": "111",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono19k4lm0v8slv52qkzfr3r92zcu72js9rw7wkyxc",
+          "pub_key": null,
+          "account_number": "112",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1vcyuwa5ujjk7l73utjknamj5sj2f0g0lsaseet",
+          "pub_key": null,
+          "account_number": "113",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono19q4n7c03hg928lvqgjkjsuzu9ap98kz2rdvq35",
+          "pub_key": null,
+          "account_number": "114",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1w6vmcrepgd42d3yu7m8yuctz0hjr2ql0qjvm9h",
+          "pub_key": null,
+          "account_number": "115",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono14wc9as50f5xkqxlgukctd64zryv8vsk6gsa39s",
+          "pub_key": null,
+          "account_number": "116",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1af42qjhwlq3qeavqh67eeasze9tqnun6p52yaf",
+          "pub_key": null,
+          "account_number": "117",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono10tjy3eu6wmpjh90gu8a7nghfds4fhah9ejx2hy",
+          "pub_key": null,
+          "account_number": "118",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1e0x26pnq9gmu4czz54jdkm0skplxc6623kg8dk",
+          "pub_key": null,
+          "account_number": "119",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1x5t6py0jc4m6ecc7q3erlay3uk82064fzhc27p",
+          "pub_key": null,
+          "account_number": "120",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1qg02x08ywpg5t55vr9xf9aedch690j2yk2khgs",
+          "pub_key": null,
+          "account_number": "121",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1d4y29kqw6nzhjcg9yadsmkv8ttrc3myqlaaxqt",
+          "pub_key": null,
+          "account_number": "122",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1zujwwdd34kf5hydnmq5xxa3a5mezd4mn5k5ygs",
+          "pub_key": null,
+          "account_number": "123",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1lpvue07k7xgr8u2sgn3admxqk6uddu20h85tzq",
+          "pub_key": null,
+          "account_number": "124",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1vcvsdar700n87f5ge748kl2uwvj7twf76edkrk",
+          "pub_key": null,
+          "account_number": "125",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono17e26lglhz387zdr906vzvtsu3460urgjn6u2yj",
+          "pub_key": null,
+          "account_number": "126",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono147jq0mhz9agrp4hpl0580wtr3cf0qdekln99tr",
+          "pub_key": null,
+          "account_number": "127",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1umwwp864azakzzr3ymdzwwgjqx4hn5w2ws0u8d",
+          "pub_key": null,
+          "account_number": "128",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono19uwc2fl7ayccvp2y58a8pqe9hh58sxf4l64789",
+          "pub_key": null,
+          "account_number": "129",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1etvw2h9n0dk00dmrt0jwge9kq6yql07a3jgnvs",
+          "pub_key": null,
+          "account_number": "130",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mono1z5vywj2p05kn8uqwtdt0txuzq0jtptnkxyy3av",
+          "pub_key": null,
+          "account_number": "131",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "mono106d0sh6tugq8t8tv4u52ngs4vj2ktsmjqrchw7",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "61000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono10jp359wz35gzsw6zt776vsrpqafs7l8h74v2yy",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono10lt58fq6xhf7ra6sycwaaknj3wlrl9yktdzs8c",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "73000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono10n7vcdpk2anu4ek57dlzrm0wz3t4gn0e9wynlj",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "5500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono10sqlees9pmrg5h5962fs58rn8lr7yhx6stxhrw",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono10tjy3eu6wmpjh90gu8a7nghfds4fhah9ejx2hy",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1495100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono128dtxcwrmhyjmt8ww3v5cgn9x3wg5xchs4ws6g",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "22884100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono12cv4px4r2u5n7nve8kvpna7nvewplvuu7r9njy",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "623078100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono12swn5enu86enlz97a8ayz58k7wvqy4mrjj6u36",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "11000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono12uqtanpmtdhwn008xcerggacrw2yxhud2wkr8f",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "20000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono12wdcy9s0maerdm3473gqjqspkvp5wemxtg99q6",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "15400000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono12wskfhgjxxqdlwavza6cyeju3vjxmlhs3wsvdp",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "9500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono136he96m203ytjkvc7lqa772q9u7v30azf59lm7",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "6000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono13fz038q3wpxcrsptgwyctns8dj9ped5ua5al4w",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "4000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono13r2hmgtl3rl8vyp8k2mutux8zhhhu9j9vhl9sw",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono13vlg33nas0mqmnc99vanxc6rkp000taqr673sw",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "23380100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono147jq0mhz9agrp4hpl0580wtr3cf0qdekln99tr",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14dus090g04mj9uln668kz2q5jsjmnkqse4x88w",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "15000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14j5dxgdx90zww5nnunyd28axcaeufdtp7j93p2",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "10000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14qh8njcuklenq4ck0q7dcwhw07wu6s4paumzx7",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "76000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14rhnq7r6vlwm6g27t4p8phdrjff5wl5m429c9h",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14sar0e5zs9fj9pv7zzk6tgvsz2l2frklagvs5m",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "114000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono14wc9as50f5xkqxlgukctd64zryv8vsk6gsa39s",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono15enfja4r5a76d592txtszg3zwqdg4v2euqkvw5",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "4500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono15r7xg5uvlupls5k3xqzcu7r4kuf4m67paeeuns",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono15scwts7zhjme5t58pwz65jtuk6clcux2j2aalc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "179910000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono15uxafu5lrckcrxq3xky9kna6drzu3q2ydtw3p8",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "638000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1663p24554u0wzc5f9kljllhref3538axw5rk8q",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "79467000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono16mxvf9le5hkaz6lu3j59xq4t4j5vlkdrq47fpc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "155303000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono16wk7eesqjc46wudycn987q0krfv08uvulhpfcw",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "11000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono17as9p0arpl3pg05hwgjs7uu48kckpxx9gqm2gj",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono17e26lglhz387zdr906vzvtsu3460urgjn6u2yj",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono17lgg9g4mgvmedq3smmhtd23yal2z4jdzeamh3h",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "277500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono187rqglcexpp0gc5d76237aukqsy5vjyjc2puxd",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "15000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono189vasg8s5juf6xl0f05a9x27uv8hetftuugzjf",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono18e53fgaxevw32vkqg6hlnyrg6fmwwcf57yjz4u",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono18u2p6fe94pf4uklzl9tyr2ylsvg973z392ce3k",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "73000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono19k4lm0v8slv52qkzfr3r92zcu72js9rw7wkyxc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "2000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono19ldkswxs5v2870uzfkkl7yztf0w8l2yy9kqjq3",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "50000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono19q4n7c03hg928lvqgjkjsuzu9ap98kz2rdvq35",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono19uwc2fl7ayccvp2y58a8pqe9hh58sxf4l64789",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1a03tfkfqcf5rxa7p3eva2pku6jp7zn6540wjh4",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1a059avltl75nvrum6aapg9mkgc5u5pwk05flwe",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "7500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1af42qjhwlq3qeavqh67eeasze9tqnun6p52yaf",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1ayskdsv279vywpc08f794udmjzdd20t0ufclk9",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "35000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1cdnw7jww2qns7jlf0tpkr0fq4nj0x5ttvhxw32",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "35000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1chmty7c65kdhy5ys4tymku4ea5a5nczeunljfn",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "202282200000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1chncej5x7sepne95dtkh59mp6s8nw4m9sfey6a",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "3500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1d4y29kqw6nzhjcg9yadsmkv8ttrc3myqlaaxqt",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "300000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1d8sn8h9ygvy76n3vaww22acy4ks4ywktwwc0ng",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "130000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1dkz3fqxy0sq5us93ku45q8ps56mj06vdmmxuf5",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "77047000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1dqtgx6m0v5xat60y7swt2xk7deyv9rh8v2jy20",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "65268100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1dtg6fjgau9wkwlqna2a8cp0cntkx7n9qrp05y7",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "6000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1e0x26pnq9gmu4czz54jdkm0skplxc6623kg8dk",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1228100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1edm0gs7ek2v3vtqdpdqnkudszfhrczlzw746rd",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "28000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1eswkqwd7gqt3clek2xjxealc5zwluqsktpuuqq",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "2500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1etvw2h9n0dk00dmrt0jwge9kq6yql07a3jgnvs",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1exrclcgx29aez28mksw2frrhxy25us63srwcp0",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "103670000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1f4mqn99s0naagvxw34740r8nzqffvzs606sscj",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1fy0y5468yxvsqusr2v725r7m35qqzmhgcvftru",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "5234100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1ga80rqwryma3np0pzldkwzfvnjtjqy3u474gyz",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1hjplnd22qka5k727ez0tup0pj6sjpyhr2aqf22",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "10996267600000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1hslkj654n4u6djsn5wdzqkk240lcm7r5wz3wqc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "23800000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1jptd449smjhdfczlk9j4yqm6p65t74hfsx9amv",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "29447000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1jt26h2a7zk8hprcdv69njl6kn37ttaz5j36urk",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "87000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1jtxd93d04v8enm2cj0tz4aadrdk6y5q0jxumhl",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1jxh7awwzmqwwnj0lqrh9g3mwv7uj6jpxe5e9rt",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "20000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1k4wzp2vg8v5xvjrdx3wh2nnn9yx0g3xw32qtrk",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "269000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1k6ym43kp6n9sx96vssc87fyxteudjm92rsv737",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1kau9qk9nf7vaw5hgaf3llgfntyp365a8sh6uws",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1kgkwcqe9eg0dura87fqnygh7lyygnme26d9ut5",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1kl07d8l0xzuwklsclrrrx28clm7966dllxz3dx",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1kuun8haavgwxj7zc497ymlryyfq6q9xgzpywdg",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "238625100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1l5gggqn74q3mat273wzu7jjgpwprac800f0xxv",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "243935100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1leggx30ytcz6w8grxqech09py43qxm2gs58w5m",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "2000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lnwvhvgdlhrpgz789fcn0l6uzrrnkwzqh72g2m",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "455000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lpvue07k7xgr8u2sgn3admxqk6uddu20h85tzq",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "7500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lrr7f6vlt4tjp27xgn5nxp7zcxk4g6wervxac6",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "6000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lrrygx82jnc739jgc3s00dvenpve890h5a349l",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "100000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lxzeqa73xhy7z0epe92fat6c49tm6z2e29p7yx",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "94392000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1lzqdnwd9lgvu69qx2s9m0de502ptcxqvvvhxj6",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "317347100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1me9757nnkh4ggn4plntplwp33gemhfe8jayc6r",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "2500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1mn06fl9vzqu4cpl3rlnmsgwqvpp3ad4q3yzp6r",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "31000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1mug58v3yww8jq7awtwwxrd75mlkg4y2eeykwp5",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "375148000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1mwjnm3h6qh49l27dp3de9cmutekdcc30pg0zv6",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "253615100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1n8d4fpagfnt6eu9djtzaazr7v0ydkf7ezz68tw",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "147639000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1nk750kxa5mvjkuwfxf3w85yfw9xw20hrajh7cj",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "63331000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1p099ver2v8kx7zsee4zuatgan95p2jzx8amawf",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1pk6t0xdm3m6w8zx4na0rzeps4a6jpvpqpt32wv",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "10500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qa2eumnfsg702pl00s7yaxqxsdpzl5ghr4a0jf",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qe45dszfpjt9x7rr38cv9r0ngfr6h77j895gas",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "297000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qg02x08ywpg5t55vr9xf9aedch690j2yk2khgs",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "400000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qjrlw0kfg4km7s2q6t3e7pfz4mqjsl2qqvfxup",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "92375000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qmk3lmtj24n5mr48utp55mv65rzwn58r3vv0cu",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qsdkq5uvvtphvj3vqg24s9t3c70h4zgad49gyx",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "250000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qvprya35ghejanrvmapsdsc3z478udxkrl67gd",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "4500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1qyyaq0u7j8engsn5usfv54uqfl0e7rh87p8q78",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1r7dq2y5hq95nnu96z9kg63h3pvggjy2r3xre5w",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1rdh0rm7233qz2hgm9cd6pn0e68ew2848nlj0n3",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "81395000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1se8yhyr59degez9h37rklelf2s2wanzy07r4rr",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "31500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1su0nernxjtg7ty7ete3xsezmt7jyney73f3sz6",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "26623000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1sujmnaqqjeknw4t0qhgl37x2788zg07j7md68r",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "303000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1t079x8y9p4qzxucgk2j2werp9suky4qa48qtr8",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "5000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1t09s0cq85kwrfzy9tunp7sesxld4ygkglqrm5f",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "14000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1tg4yyvpf4akcahdhl4rkmrzahq90yumu2rycxa",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "24000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1thapwtuqz5plps4rcdy5gv7kqhtec2y38r7a4m",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "6500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1u2j6c5wrzturutvku708f959kc8h2f5anxdsl3",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "3000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1uhu3gyw2vgph60mq8m4ffepvmwkeqz28g8ddzu",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "496000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1umwwp864azakzzr3ymdzwwgjqx4hn5w2ws0u8d",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1urppm9u6gk6a5awtl8e99txag5vh2u8g9zzdxc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "3500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1ux7ng7pdnpwxyf9av8vkzv4mjl4kryscjmh2sv",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "18000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1v9ysv00h8gx5qewfpqaruucj2mk3phy4lrl975",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1vcvsdar700n87f5ge748kl2uwvj7twf76edkrk",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1vcyuwa5ujjk7l73utjknamj5sj2f0g0lsaseet",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "2000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1vlthdnsmrvpn2j5fus08p0v0q9n98ezc0pnq83",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "3500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1vxuhmlre6gtmfepzywtzye928lrt0m5lskthgt",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "4000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1w6vmcrepgd42d3yu7m8yuctz0hjr2ql0qjvm9h",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1wlmdjfsamrj9cr592k4gd2ckfrdfh9wrcty58y",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "7434000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1wpmnj9pg02xe9aej994l4zrxy9a0zwldf4trdp",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1ww4wsl2ashzhzsdxpwhj32kcvxaf4mr6j7s9lc",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "5500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1x56r44s847v2ct8q8dkg3zpehh77ru0l45rffe",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "8000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1x5t6py0jc4m6ecc7q3erlay3uk82064fzhc27p",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1xekczdwhgy7qj4jqgnf5tgj9wuwfhtzmn0nfwy",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "1000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1xz3dwyllrzxepur6rwedre0suhz07ffqjkxegm",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "45000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1yhnnkk7rhmype9pu9rrtgdpx5yat4j8kz9xtkl",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "3503100000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1yv8hn9zwx7zv45eujj8zajlr4wup2l2cyc2shf",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "76240000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1z33072vzjxmwkpgkgre33rag6nnq3r9whflvat",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "42000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1z5vywj2p05kn8uqwtdt0txuzq0jtptnkxyy3av",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "200000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1zd3kd49we8jglzjmalataun4adpy2z4rdeh0fl",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "282370000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1zf9efsgfh0yfxz6nhr2837q8e26732rkvswapu",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "67000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1zrvgxnjrc357fp4haxqzu64ghesjmyv0h77gsm",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "14500000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "mono1zujwwdd34kf5hydnmq5xxa3a5mezd4mn5k5ygs",
+          "coins": [
+            {
+              "denom": "alyth",
+              "amount": "25000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "alyth",
+          "amount": "72000000000000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native token of Monolythium",
+          "denom_units": [
+            {
+              "denom": "alyth",
+              "exponent": 0,
+              "aliases": [
+                "attolyth"
+              ]
+            },
+            {
+              "denom": "lyth",
+              "exponent": 18,
+              "aliases": []
+            }
+          ],
+          "base": "alyth",
+          "display": "lyth",
+          "name": "Monolythium",
+          "symbol": "LYTH",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "burn": {
+      "account_totals": [],
+      "count": "0",
+      "params": {
+        "fee_burn_percent": "0.9"
+      },
+      "total": "0"
+    },
+    "consensus": null,
+    "distribution": {
+      "delegator_starting_infos": [],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": []
+      },
+      "outstanding_rewards": [],
+      "params": {
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "community_tax": "0.1",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "",
+      "validator_accumulated_commissions": [],
+      "validator_current_rewards": [],
+      "validator_historical_rewards": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "epoch_counting_started": false,
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "epoch_counting_started": false,
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "epoch_counting_started": false,
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z"
+        },
+        {
+          "current_epoch": "0",
+          "current_epoch_start_height": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "epoch_counting_started": false,
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z"
+        }
+      ]
+    },
+    "erc20": {
+      "allowances": [],
+      "dynamic_precompiles": [],
+      "native_precompiles": [
+        "0x4cf63fe01ffe0f27dc59c68e284f381599e14860"
+      ],
+      "params": {
+        "enable_erc20": true,
+        "permissionless_registration": true
+      },
+      "token_pairs": [
+        {
+          "contract_owner": "OWNER_MODULE",
+          "denom": "alyth",
+          "enabled": true,
+          "erc20_address": "0x4cf63fe01ffe0f27dc59c68e284f381599e14860"
+        }
+      ]
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "access_control": {
+          "call": {
+            "access_control_list": [],
+            "access_type": "ACCESS_TYPE_PERMISSIONLESS"
+          },
+          "create": {
+            "access_control_list": [],
+            "access_type": "ACCESS_TYPE_PERMISSIONLESS"
+          }
+        },
+        "active_static_precompiles": [
+          "0x0000000000000000000000000000000000000100",
+          "0x0000000000000000000000000000000000000800",
+          "0x0000000000000000000000000000000000000801",
+          "0x0000000000000000000000000000000000000802",
+          "0x0000000000000000000000000000000000000803",
+          "0x0000000000000000000000000000000000000804",
+          "0x0000000000000000000000000000000000000805",
+          "0x0000000000000000000000000000000000000806",
+          "0x0000000000000000000000000000000000000807"
+        ],
+        "evm_channels": [],
+        "evm_denom": "alyth",
+        "extended_denom_options": {
+          "extended_denom": "alyth"
+        },
+        "extra_eips": [],
+        "history_serve_window": "8192"
+      },
+      "preinstalls": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feemarket": {
+      "block_gas": "0",
+      "params": {
+        "base_fee": "1000000000",
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "1",
+        "min_gas_multiplier": "0.5",
+        "min_gas_price": "10000000",
+        "no_base_fee": false
+      }
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator4",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper1umwwp864azakzzr3ymdzwwgjqx4hn5w27jqadf",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "0o8vndgIUBpQehMwn/7/Hpo4KcuZU/U3eieiwLryzIU="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "2ed91fc81d1edcc5f84fdc512db9ab5ed66ccc7f@178.104.87.244:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AzrfWnzB0H+XYrs0+OWVhtLdq88NXjK7D6GatjIdVn0w"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "oXtqsUlzA2e1F2Zjn/WEauhTkDgwtS0SV7HlY3ouTzBr86NVanE2fin+B1OFP0PfBuH4yPG3xP5ATKIdSK10EgA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator1-testnet",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper1vcvsdar700n87f5ge748kl2uwvj7twf72mzhfj",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "gLjC0ORJONXmpHUcNWhgkXNtVw/w0N3vp1ij2puyOZc="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "591ba72a492b9e9da63b49779120584ce62e270d@78.47.141.58:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AoliHVTitlYXCHltfcm/A9uGwyWY2OMuXazo/+dMxxBd"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "kEc0Emkv6KvdwBsYXBr3QKf9S7kNUf2rn/nbbti81epRBTWrfUdAruorE4eWeW9esSlrVLFOBcIv5vlh/ZAlegA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator2-testnet",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper17e26lglhz387zdr906vzvtsu3460urgjrcntwk",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Glp/yvVECdgCCTp8IlKskJpvSzCFUKHRKNwhHhQqNS8="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "63fb7fe6b40abd03cc08dd309ec74493bd6f9ea8@159.69.89.111:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AlMAtxCTF6/s/9LmmyqLuS4ve3lGNzJEwoFxn5sW0MMK"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "4mvi9FP5bqA/idUDtw6lcuNkPOZ29w8z8bbEsj+q8Bhjl3ZpkB47yrcAqvTOdgIb5wKccCnp50HDk81Bxc1PggA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator5",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper19uwc2fl7ayccvp2y58a8pqe9hh58sxf40c6ldp",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "8s5GjeOxrEYjlCWWvyizCddQbzUDd9d5jm1hSjUSryI="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "8de36d293c0f74d475c757c99ec120ce5977b899@46.62.206.153:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A5QnLjukaux8DSfesE2P2mW5OWbOUvCW3gSoVnsL/97g"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "osACh6Lb5HQb6A99YgPee+7xgdfIFxsMLzn/ztZ3QL8wI4F3OCmNqK1uBREFmutpheyP92/8zIJM7tHAWSTAKQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper147jq0mhz9agrp4hpl0580wtr3cf0qdek032yp8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "rv8wpIjafkiKVua8SZo27h/fWQHTJU0oxXaEtpVw7pQ="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "955fdc8ef7ee03554717d264a1473d171bcf412b@46.62.197.55:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AlaKSjMagmaMzixX7f8O/Bp6ViZQKDvMvaJVZR57wu1C"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "IWFgGypHwWg4YXl8KokwtyRH7nLv/b9lIuBj4tweNmAMjKnKZSGIvh2XtK8elg1XQmjPw4ddnudLa8qvwyCO+wA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator6",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper1etvw2h9n0dk00dmrt0jwge9kq6yql07aps8jx5",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "vmasgUGE1bHhykpvWnKSVR2EAD8SQC/TluMhJ49UMW8="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "b83525f0e5940af1b40ea4af88be86cc21dd87dd@91.99.217.26:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A5+7rKUDeg8vlcaGBGU9DTI/3VM4bwxt8W1LebXQgPpk"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "iJSv+aJ8zHclKMmzJ8k81ufuQA3hE309JxZQfygGLEE5H4UsWN/U2ibMEB610p+iamgmFIC8wCorp0cRKOmsOQA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator7",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "monovaloper1z5vywj2p05kn8uqwtdt0txuzq0jtptnkkxtshg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "xMZAV8Zcfld+rpeV7WkNf811BuhcrfyFnuLagfex+SQ="
+                },
+                "value": {
+                  "denom": "alyth",
+                  "amount": "100000000000000000000000"
+                }
+              }
+            ],
+            "memo": "deb78dae6aa9af69d379b28319e642d0b2207416@46.62.206.194:26656",
+            "timeout_height": "0",
+            "unordered": false,
+            "timeout_timestamp": null,
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "A9IkmSBoJzDvlBlD/EJ6H5rzLcG8o4RGLFpgL2YW74jq"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "fM5oWnl3HJZbIkx8NBhk96p9MX/swSSzHbnajAbbqOYfTmksgTqavhEt8vTmLaC8FMlxctmP7uhoM6cYM2dhiAA="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "constitution": "",
+      "deposit_params": null,
+      "deposits": [],
+      "params": {
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_quorum": false,
+        "burn_vote_veto": true,
+        "expedited_min_deposit": [
+          {
+            "amount": "50000000000000000000",
+            "denom": "alyth"
+          }
+        ],
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_voting_period": "86400s",
+        "max_deposit_period": "172800s",
+        "min_deposit": [
+          {
+            "amount": "10000000000000000000",
+            "denom": "alyth"
+          }
+        ],
+        "min_deposit_ratio": "0.010000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_dest": "",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "voting_period": "172800s"
+      },
+      "proposals": [],
+      "starting_proposal_id": "1",
+      "tally_params": null,
+      "votes": [],
+      "voting_params": null
+    },
+    "ibc": {
+      "channel_genesis": {
+        "ack_sequences": [],
+        "acknowledgements": [],
+        "channels": [],
+        "commitments": [],
+        "next_channel_sequence": "0",
+        "receipts": [],
+        "recv_sequences": [],
+        "send_sequences": []
+      },
+      "channel_v2_genesis": {
+        "acknowledgements": [],
+        "async_packets": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": []
+      },
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "create_localhost": false,
+        "next_client_sequence": "0",
+        "params": {
+          "allowed_clients": [
+            "07-tendermint",
+            "06-solomachine"
+          ]
+        }
+      },
+      "client_v2_genesis": {
+        "counterparty_infos": []
+      },
+      "connection_genesis": {
+        "client_connection_paths": [],
+        "connections": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "annual_provisions": "0",
+        "inflation": "0.08"
+      },
+      "params": {
+        "blocks_per_year": "15768000",
+        "goal_bonded": "0.67",
+        "inflation_max": "0.08",
+        "inflation_min": "0.08",
+        "inflation_rate_change": "0",
+        "mint_denom": "alyth"
+      }
+    },
+    "protocolpool": {
+      "continuous_funds": [
+        {
+          "percentage": "1.000000000000000000",
+          "recipient": "0x0109d03f9e91f3344274e412ca57804fdf9f0ee7"
+        }
+      ],
+      "params": {
+        "distribution_frequency": "1",
+        "enabled_distribution_denoms": [
+          "alyth"
+        ]
+      }
+    },
+    "slashing": {
+      "missed_blocks": [],
+      "params": {
+        "downtime_jail_duration": "600s",
+        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "100",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": []
+    },
+    "staking": {
+      "delegations": [],
+      "exported": false,
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "params": {
+        "bond_denom": "alyth",
+        "historical_entries": 10000,
+        "max_entries": 7,
+        "max_validators": 53,
+        "min_commission_rate": "0.000000000000000000",
+        "unbonding_time": "259200s"
+      },
+      "redelegations": [],
+      "unbonding_delegations": [],
+      "validators": []
+    },
+    "transfer": {
+      "denoms": [],
+      "params": {
+        "receive_enabled": true,
+        "send_enabled": true
+      },
+      "port_id": "transfer",
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "validator": {
+      "params": {
+        "validator_min_self_delegation": {
+          "amount": "100000000000000000000000",
+          "denom": "alyth"
+        },
+        "validator_registration_burn": {
+          "amount": "100000000000000000000000",
+          "denom": "alyth"
+        }
+      }
+    },
+    "vesting": {}
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}

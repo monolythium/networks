@@ -3,15 +3,22 @@
   "cosmos_chain_id": "mono_6940-1",
   "evm_chain_id": 6940,
   "evm_chain_id_hex": "0x1b1c",
-  "genesis_url": "https://raw.githubusercontent.com/monolythium/networks/main/testnet/genesis.json",
-  "genesis_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-  "seeds": [],
-  "bootstrap_peers": [],
+  "genesis_url": "https://raw.githubusercontent.com/monolythium/networks/prod/testnet/genesis.json",
+  "genesis_sha256": "c11f53c21e718a2fdb0eba1e248a919b782686bdac94b542d31dc8bded9af0e9",
+  "seeds": [
+    "561c4313fa36aa568ce51d13c66f326192c48b41@159.69.176.32:26656"
+  ],
+  "bootstrap_peers": [
+    "ba1e419ee0a169a22cc706b23f30fb028a6b6a14@78.47.141.58:26656",
+    "899fa0c4f25c760356d0e6666ee13f56d52a78ae@159.69.89.111:26656",
+    "b8b0caf66fb7268b5e7bacd897fc95980188980b@46.62.197.55:26656"
+  ],
+  "snapshot_url": "https://snapshots.testnet.mononodes.xyz/latest.tar.lz4",
   "rpc_endpoints": {
-    "cosmos_rpc": [],
-    "cosmos_rest": [],
-    "evm_rpc": [],
-    "evm_ws": []
+    "cosmos_rpc": ["https://rpc.testnet.mononodes.xyz"],
+    "cosmos_rest": ["https://api.testnet.mononodes.xyz"],
+    "evm_rpc": ["https://evm.testnet.mononodes.xyz"],
+    "evm_ws": ["wss://evm.testnet.mononodes.xyz"]
   },
   "port_scheme": {
     "rpc": 26657,
@@ -21,7 +28,7 @@
     "evm_rpc": 8545,
     "evm_ws": 8546
   },
-  "network_status": "testing",
+  "network_status": "active",
   "config_version": "1.0.0",
-  "updated_at": "2026-01-06T00:00:00Z"
+  "updated_at": "2026-03-26T00:00:00Z"
 }

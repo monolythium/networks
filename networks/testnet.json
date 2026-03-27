@@ -13,11 +13,12 @@
     "899fa0c4f25c760356d0e6666ee13f56d52a78ae@159.69.89.111:26656",
     "b8b0caf66fb7268b5e7bacd897fc95980188980b@46.62.197.55:26656"
   ],
+  "snapshot_url": "https://snapshots.testnet.mononodes.xyz/latest.tar.lz4",
   "rpc_endpoints": {
-    "cosmos_rpc": [],
-    "cosmos_rest": [],
-    "evm_rpc": [],
-    "evm_ws": []
+    "cosmos_rpc": ["https://rpc.testnet.mononodes.xyz"],
+    "cosmos_rest": ["https://api.testnet.mononodes.xyz"],
+    "evm_rpc": ["https://evm.testnet.mononodes.xyz"],
+    "evm_ws": ["wss://evm.testnet.mononodes.xyz"]
   },
   "port_scheme": {
     "rpc": 26657,
@@ -27,7 +28,7 @@
     "evm_rpc": 8545,
     "evm_ws": 8546
   },
-  "network_status": "launching",
+  "network_status": "active",
   "config_version": "1.0.0",
-  "updated_at": "2026-03-26T23:00:00Z"
+  "updated_at": "2026-03-26T00:00:00Z"
 }

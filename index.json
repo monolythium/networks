@@ -11,14 +11,6 @@
       "config_file": "networks/localnet.json"
     },
     {
-      "id": "sprintnet",
-      "name": "Sprintnet",
-      "cosmos_chain_id": "mono-sprint-1",
-      "evm_chain_id": 262146,
-      "status": "active",
-      "config_file": "networks/sprintnet.json"
-    },
-    {
       "id": "testnet",
       "name": "Testnet",
       "cosmos_chain_id": "mono_6940-1",
@@ -37,7 +29,6 @@
   ],
   "evm_chain_id_registry": {
     "262145": "localnet",
-    "262146": "sprintnet",
     "6940": "testnet",
     "6941": "mainnet"
   }

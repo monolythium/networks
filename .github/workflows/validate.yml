@@ -57,19 +57,6 @@ jobs:
 
           echo "All EVM chain IDs are unique"
 
-      - name: Verify Sprintnet EVM chain ID invariant
-        run: |
-          echo "Verifying Sprintnet EVM chain ID..."
-
-          sprintnet_chain_id=$(jq -r '.evm_chain_id' networks/sprintnet.json)
-
-          if [ "$sprintnet_chain_id" != "262146" ]; then
-            echo "Error: Sprintnet EVM chain ID must be 262146, found: $sprintnet_chain_id"
-            exit 1
-          fi
-
-          echo "Sprintnet EVM chain ID is correct: 262146"
-
       - name: Verify EVM chain ID hex values
         run: |
           echo "Verifying EVM chain ID hex representations..."
@@ -139,6 +126,5 @@ jobs:
           echo "All validations passed successfully:"
           echo "  - JSON schema validation"
           echo "  - EVM chain ID uniqueness"
-          echo "  - Sprintnet EVM chain ID invariant (262146)"
           echo "  - Hex/decimal consistency"
           echo "  - Index consistency"

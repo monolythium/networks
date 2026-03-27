@@ -2368,7 +2368,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2376,7 +2381,7 @@
             "tip": null
           },
           "signatures": [
-            "hmCi1d+FmmqNhKNCdv3sNrLXm8B5EjMbAHaZ+4L8oA9I2VAzySVFkxF0Tw6ltMYflgaK0ksXJ8+Ej+VF3YIZ/QA="
+            "0ZKsFb3h8HUqDx1ylg9gFZzZCJoFf2HCWVaTy2vlOd8JTTKzCAMrA8cfa0shr+9MAZOZgDJRv858XTuBfgpO4QE="
           ]
         },
         {
@@ -2432,7 +2437,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2440,7 +2450,7 @@
             "tip": null
           },
           "signatures": [
-            "iI+LDRAIEGLcXnYOoTQBmUJ5q3AW6b5VAonQW8izWT4bJi9KZbbt0PJAAnXMgWV+Kb68L1LqmUc8tEwPbEIcFQE="
+            "3GbWS64K+XDyP/oKNL0HZZDFkm2b9FAOwhZXDpYPMdNXV4ekF1WqBaZpcgIKr73oiqv1MpffQz83n2sRbTnR8gA="
           ]
         },
         {
@@ -2496,7 +2506,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2504,7 +2519,7 @@
             "tip": null
           },
           "signatures": [
-            "l1AvwMxHs5WolphzQbu+n39CeVU7i08MOeKwKJQQBpQYMb63EpqM3SNQJu7ZW2Req6NHxc6jVVLiDniLmyhrjQA="
+            "O9HLfV9voFXCIT/u3G0jspfG23nlxMR5q2ZomIapNjQYe1OhJIk17J2U7ay7GZLdCC6kQg3TDFBlVPG72I8WQQE="
           ]
         },
         {
@@ -2560,7 +2575,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2568,7 +2588,7 @@
             "tip": null
           },
           "signatures": [
-            "DhsD/MQEOQEqtje5fKhqvRRAHoHq3oH3+r1/9IcKYmhjWS/9l4TTt6yfFexfnib1mfUWTZA9tODjJYI3F+i/ZAA="
+            "7+DrSpMEdYrWbP5aoD9yfVkueMo4M8jxRr9i/6fFvIErZcgRbXS2v2zLIfCVddgtczzNxAMut+AO1j2CtmbtqgA="
           ]
         },
         {
@@ -2624,7 +2644,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2632,7 +2657,7 @@
             "tip": null
           },
           "signatures": [
-            "0A5ZuLiaZCfEnuO1tg36NpVmLruHCa57dpMyMFKoaoBLfXtI+kbYOx8W+cJOg34BinY5RJTR9c4RLC+yQIEqMwA="
+            "Q/Uvr0nqbYlByl8c+0e66tT1+Q+vzkwZXzF/AlNMW9UaXpmtWiiQwrlB/hAwczcuz8HZW6g9r10kQz9Tvq4niAE="
           ]
         },
         {
@@ -2688,7 +2713,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2696,7 +2726,7 @@
             "tip": null
           },
           "signatures": [
-            "4jWN7CWihaKqqviZmqsllW0Y2Qoge5oeWa5PzIvJXSsUq0DlsnJy401hOdHDBuFhcmX5Z8YtlO3p/yNbPgA+vwE="
+            "Tg12iHIy6B+bwYoIYGqQ25jIC8G/BL5KaP+4pWdizskEEjr+6RhdGeN56vg717/RjQTgTeXpiZ3DO9QXceelLAA="
           ]
         },
         {
@@ -2752,7 +2782,12 @@
               }
             ],
             "fee": {
-              "amount": [],
+              "amount": [
+                {
+                  "denom": "alyth",
+                  "amount": "2000000000000"
+                }
+              ],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -2760,7 +2795,7 @@
             "tip": null
           },
           "signatures": [
-            "xnXL2r5mzV6NS8HM+LhfFU+AhsKnU9rFethtxU4RLLt48vY6cn2qqHMuxUm1c3o6B5k1ZOJnG7oV5BfLEzCrmAE="
+            "XC6pL7GXALQkHWsnOipVYSRjBKGcZ0t21IE6iD4QWN4Luha0++olOI/kTNx4xqPof4dCa8yRpRUvmDJf5b3fMgE="
           ]
         }
       ]

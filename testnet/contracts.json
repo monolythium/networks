@@ -1,0 +1,28 @@
+{
+  "network": "testnet",
+  "evm_chain_id": 6940,
+  "updated_at": "2026-03-28T00:00:00Z",
+  "dex": {
+    "router": "0x5c8043d63b4f4f1b76cbc2833aa8ed44d06f8ede",
+    "factory": "0x1576d747641059ea8a9d74c62d6780b9ad80b68b",
+    "wlyth": "0xb5dadb197e9b07cd276403f9637308407b7e01f9"
+  },
+  "protocol": {
+    "fee_collector": "0xec3d6023df47741d22b025712c667272c88cf074",
+    "twap_oracle": "0xf2de9ed845b363bbd6cf7a5d6ad4302d7c67a127",
+    "lp_farming": "0x6f9edea7ce78787fb4912832f00c670d0f10e7d5",
+    "mono_pump": "0x088b959b211be73a35c8f15cf4a1204d70cec68d",
+    "referral": "0xd05f7f1cec6cd5c08bdde024b85b926f264cab16",
+    "creator_vesting": "0xaf823b3b68cfd3af7e2a33ff70259a52752d47f7",
+    "timelock": "0xdcc86f3119a20697306d0e4458e6e45deff59855"
+  },
+  "agents": {
+    "agent_registry": "0x24bde2c3eff336264b640e5a486a1843943b1c0f",
+    "agent_launchpad": "0x3d1cdabe734bc933f39658e11916e40062f52291",
+    "agent_arena": "0x671915bfd65c9dcb5deea7dce244f2c32361eca2"
+  },
+  "pairs": {
+    "WLYTH_TUSDC": "0x794C98354c2A9B73E351986c12dA1066Ea8e2f87",
+    "WLYTH_TDAI": "0xa08EaCCc6f4D9F188A9bFF76Fc44483a0880B864"
+  }
+}

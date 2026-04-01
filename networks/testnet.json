@@ -4,16 +4,22 @@
   "evm_chain_id": 6940,
   "evm_chain_id_hex": "0x1b1c",
   "genesis_url": "https://raw.githubusercontent.com/monolythium/networks/prod/testnet/genesis.json",
-  "genesis_sha256": "c11f53c21e718a2fdb0eba1e248a919b782686bdac94b542d31dc8bded9af0e9",
+  "genesis_sha256": "660467dd049c9db9fefb8c2ab34d945248063f6fefd547118c6b836afbf1aaf2",
   "seeds": [
-    "561c4313fa36aa568ce51d13c66f326192c48b41@159.69.176.32:26656"
+    "dfb589cf9b9e5b87500185f2d34438e9a5c61669@159.69.176.32:26656",
+    "d22ddc4299c6ec67b3dfdd05e70d01cd756ab7b4@46.224.162.79:26656",
+    "24de1ae8fe913ef5b0f90614d7f2fe40510f2ace@178.104.124.114:26656"
   ],
   "bootstrap_peers": [
-    "ba1e419ee0a169a22cc706b23f30fb028a6b6a14@78.47.141.58:26656",
-    "899fa0c4f25c760356d0e6666ee13f56d52a78ae@159.69.89.111:26656",
-    "b8b0caf66fb7268b5e7bacd897fc95980188980b@46.62.197.55:26656"
+    "1c68c6b5bdbd86f8da5a035680798d34e9215bbf@78.47.141.58:26656",
+    "9c79a43e4f75b7e25dfbf2f95cbfe21d396b9561@159.69.89.111:26656",
+    "a5ebcc736956f4d2b0784b265f668bfa290f4040@46.62.197.55:26656",
+    "46bf30662593e204da7406dc669b8c057d307dd9@178.104.87.244:26656",
+    "00264015ae4b350fd254b6ecb7b8a81cda130e34@46.62.206.153:26656",
+    "dc4c3ba4f43ede62283b415f1f1c31e4b41416a3@91.99.217.26:26656",
+    "e18364b7b8aea5e5961721e83e169bd368784c3a@46.62.206.194:26656",
+    "97f4966eb9d82758e2c81f1d9b8414ff6fbf139e@157.90.238.80:26656"
   ],
-  "snapshot_url": "https://snapshots.testnet.mononodes.xyz/latest.tar.lz4",
   "rpc_endpoints": {
     "cosmos_rpc": ["https://rpc.testnet.mononodes.xyz"],
     "cosmos_rest": ["https://api.testnet.mononodes.xyz"],
@@ -30,5 +36,5 @@
   },
   "network_status": "active",
   "config_version": "1.0.0",
-  "updated_at": "2026-03-26T00:00:00Z"
+  "updated_at": "2026-04-01T00:00:00Z"
 }
